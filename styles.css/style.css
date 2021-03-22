@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+:root {
+  --darkgrey: #363636;
+  --backgroundnav: #252527;
+  --hover: #5cb7fd;
+  --text: #fff;
+  --border: #1c3b58;
+}
+body {
+  background-color: #fff;
+}
+main {
+  height: 110px;
+  max-width: 1027px;
+  width: 95%;
+  margin: 35px auto;
+}
+nav {
+  border-bottom: 1px solid var(--border);
+  width: 100%;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  background-color: var(--darkgrey);
+}
+nav ul li {
+  background-color: var(--backgroundnav);
+}
