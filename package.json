@@ -1,0 +1,13 @@
+{
+    "name": "taak_nav",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "deploy": "surge . taak-nav-bjorn.surge.sh",
+      "start": "live-server"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+  }
